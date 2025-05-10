@@ -2,68 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Acciojob Example</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif; /* Font style */
-            background-color: #f4f4f4; /* Background color */
-            margin: 0; /* Remove default margin */
-            padding: 20px; /* Add padding */
-        }
-        h2 {
-            color: #333; /* Subheading color */
-            text-align: center; /* Center align */
-        }
-        table {
-            width: 100%; /* Full width */
-            border-collapse: collapse; /* Collapse borders */
-            margin-top: 20px; /* Margin on top */
-        }
-        th, td {
-            padding: 10px; /* Padding in cells */
-            border: 1px solid #ddd; /* Border for cells */
-        }
-        th {
-            background-color: #f2f2f2; /* Header background color */
-        }
-        tr:hover {
-            background-color: #e2e2e2; /* Row hover effect */
-        }
-    </style>
+    <title>My Favourite Song</title>
 </head>
 <body>
-    <table>
-        <tr>
-            <th>Requirement</th>
-            <th>Description</th>
-        </tr>
-        <tr>
-            <td>HTML Structure</td>
-            <td>All the content must be inside a "div" tag.</td>
-        </tr>
-        <tr>
-            <td>Display Text</td>
-            <td>Display the text "My current favourite song is [song_name]" where [song_name] should be replaced with your actual favourite song name.</td>
-        </tr>
-		<tr>
-			<td>Link to YouTube</td>
-			<td>Link the song name to the official YouTube link of the song through anchor tags.</td>
-		</tr>
-		<tr>
-			<td>Anchor Tag Validation</td>
-			<td>The anchor tag should contain a valid href attribute with a non-empty URL.</td>
-		</tr>
-    </table>
-
-    <script>
-        // Function to alert when a table row is clicked
-        const rows = document.querySelectorAll('tr');
-        rows.forEach(row => {
-            row.addEventListener('click', () => {
-                alert('You clicked on: ' + row.innerText);
-            });
-        });
-    </script>
+    <div>
+        <p>My current favourite song is <a href="https://www.youtube.com/watch?v=JGwWNGJdvx8" target="_blank">Shape of You</a>.</p>
+    </div>
 </body>
 </html>
